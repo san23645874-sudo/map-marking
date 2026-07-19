@@ -1,0 +1,118 @@
+body {
+    font-size: 15pt;
+    background-color: black;
+    color: White;
+}
+h1,h2{
+  
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+  border-bottom: 2px solid orange;
+  
+
+}
+
+
+h2{
+  margin-top: 50px;
+}
+
+h3{
+  position: absolute;
+  margin-top: 50px;
+}
+#image_container {
+  position: relative;
+  width: 75%;
+  max-width: 300px; 
+  margin: 0 auto;
+}
+
+#image_container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+#kanagarayan_aru{ top: 6%; left: 80%;  }
+#ma_oya{ top: 8.8%; left: 85%;  }
+#yan_oya{ top: 12%; left: 90%;  }
+#mahawali_gaga { top: 14.5%; left: 94%;}
+#maduru_oya { top: 18%; left: 96%;}
+#gal_oya { top: 23%; left: 108%; }
+#kubukkqn_oya { top: 36%; left: 104%; }
+#manik_gaga { top: 39%; left: 97%; }
+#kiridi_oya { top: 42%; left: 92%;  }
+#walawe_gaga { top: 40%; left: 70%; }
+#nilwala_gaga { top: 42%; left: 43%; width: 25px ;}
+#gin_gaga { top: 40%; left: 2%; width: 25px ; }
+#kalu_gaga { top: 36%; left: 2%; }
+#kalani_gaga { top: 33%; left: -2%; }
+#maha_oya { top: 29.2%; left: -4%; }
+#dauru_oya { top: 25%; left: -7%; }
+#kala_oya { top: 20%; left: -8%; }
+#modharagam_aru { top: 15%; left: -8%; }
+#malwathu_oya { top: 12%; left: -8%; }
+
+
+
+button {
+  padding: 16px 25px;
+  font-size: 46px;
+  font-weight: 600;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  border-radius: 50px;
+  border: 2px solid #FFCD35;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  display: block;
+  margin: auto;
+  margin-top: 400px;
+  scale: 155%;
+}
+
+
+button:active {
+  transform: scale(0.97);
+}
+
+.pin-input {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  background: solid white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+/*
+
+#kanagarayan_aru {
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  width: 20px
+}
+
+
+
+#ma_oya{
+  
+    margin-top: -44rem;
+    margin-left: 4rem;
+}
+
+#yan_oya{
+    
+    margin-top: -40rem;
+    margin-left: 4rem;
+}*/
